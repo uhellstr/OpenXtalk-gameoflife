@@ -7,7 +7,7 @@ This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.1
   http://downloads.livecode.com/livecode/
 
 Tested environments:
-- OSX Yousemity
+- OSX Yosemity
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
   runrev. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
  
