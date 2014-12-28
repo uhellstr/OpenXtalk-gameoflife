@@ -1,5 +1,17 @@
 GAME OF LIFE
 
-This is Conway's Game Of Life written in LiveCode (runrev) version 6.6.3
+This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.1
 
-Note: This is an alpha release. Game works but button for load and save are yet to be implemented.
+- To compile code you must use LiveCode version 7.0.X or higher
+- Download LiveCode community version from
+  http://downloads.livecode.com/livecode/
+
+Tested environments:
+- OSX Yousemity
+- Linux compiled in 32-bit mode since we require sqllite libraries provided by
+  runrev. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
+ 
+Conway's game of life information
+---------------------------------
+http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
