@@ -36,7 +36,7 @@ For people new into LiveCode this project can be used to introduce the developer
 Tested environments:
 - OSX Yosemity
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
-  runrev. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
+  LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
  
 TODO:
 No support yet for mobile platform Android that is TODO and that part is 
