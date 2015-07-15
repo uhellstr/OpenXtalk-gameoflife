@@ -37,6 +37,10 @@ Tested environments:
 - OSX Yosemity
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
   LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
+  Program tested on 32-Bit Debian wheezy, 64-Bit Ubuntu 14.04 LST and Debian 8 Jessie 64-bit.
+  On 64-bit platforms you will need to install 32-bit library support to be able to compile
+  32-bit executables as per LiveCode documentation.
+
 - Added rough support for Mobile (Android) 
  
 Not tested on Windows 7 or 8 due to lack of that environment.
