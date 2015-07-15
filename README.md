@@ -37,10 +37,8 @@ Tested environments:
 - OSX Yosemity
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
   LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
+- Added rough support for Mobile (Android) 
  
-TODO:
-No support yet for mobile platform Android that is TODO and that part is 
-removed from the project from now.
 Not tested on Windows 7 or 8 due to lack of that environment.
 Possibly speed up the game by minimize size of the arrays.
 Possibly speed up the graphics by not reference by name but by the short-id of a graphic.
