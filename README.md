@@ -1,6 +1,6 @@
 GAME OF LIFE
 
-This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.1
+This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.6
 
 - To compile code you must use LiveCode version 7.0.X or higher
 - Download LiveCode community version from
@@ -9,7 +9,7 @@ This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.1
 Descisions made on project before develop:
 
 - The project should be able to run on a mobile (Android) plattform hence the
-  sqllite for storage.
+  sqlite for storage.
 - The game should use boundless borders so Gliders will contine for ever if
   they are on there own on the board.
 - Should be easy to understand how to use
@@ -17,7 +17,7 @@ Descisions made on project before develop:
   simulation.
 - Should be possible not only to step forward, but also possible to step
   backwards. (Was never implemented since it would require to generate
-  a sqllite database to large for a possible mobile plattform.)
+  a sqlite database to large for a possible mobile plattform.)
 
 For people new into LiveCode this project can be used to introduce the developer into
 
@@ -42,12 +42,14 @@ Tested environments:
   32-bit executables as per LiveCode documentation.
 
 - Added rough support for Mobile (Android) 
+- Added support for iOS (8.3 and above) for iPad 2 / Air
  
-Not tested on Windows 7 or 8 due to lack of that environment.
+Todo's and Notes:
+
+Not tested on Windows 7 or 8 or 10  due to lack of that environment.
 Possibly speed up the game by minimize size of the arrays.
 Possibly speed up the graphics by not reference by name but by the short-id of a graphic.
 A simple PDF manual on how to use the program.
-There still is some code that could be redundant and moved to stack to be more global.
 
 Conway's game of life information
 ---------------------------------
