@@ -2,7 +2,7 @@ GAME OF LIFE
 
 This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.6
 
-- To compile code you must use LiveCode version 7.0.X or higher
+- To compile code you must use LiveCode version 7.0.6 or higher
 - Download LiveCode community version from
   http://downloads.livecode.com/livecode/
 
@@ -39,7 +39,11 @@ Tested environments:
   LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
   Program tested on 32-Bit Debian wheezy, 64-Bit Ubuntu 14.04 LST and Debian 8 Jessie 64-bit.
   On 64-bit platforms you will need to install 32-bit library support to be able to compile
-  32-bit executables as per LiveCode documentation.
+  32-bit executables as per LiveCode documentation unless you use LiveCode 8.0.0.-dp6 or higer.
+
+- Additional Linux 64-bit support verified. If you want to compile the code for 64-bit Linux
+  then you should go for LiveCode release 8.0.0-dp6 or higher that includes
+  the necessary sqlite libraries.
 
 - Added rough support for Mobile (Android) 
 - Added support for iOS (8.3 and above) for iPad 2 / Air
