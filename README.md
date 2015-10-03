@@ -47,6 +47,7 @@ Tested environments:
 
 - Added rough support for Mobile (Android) 
 - Added support for iOS (8.3 and above) for iPad 2 / Air
+- Added support for LiveCode 8.0-DP6 and iOS9
 - Added support for FontAwesome fonts and removed all graphical icons from the
   project to minimize size of app and get rid of all the manual work of creating icons.
 
