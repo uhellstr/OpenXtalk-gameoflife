@@ -34,7 +34,7 @@ For people new into LiveCode this project can be used to introduce the developer
 
 
 Tested environments:
-- OSX Yosemity
+- OSX Yosemity / El Capitan
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
   LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
   Program tested on 32-Bit Debian wheezy, 64-Bit Ubuntu 14.04 LST and Debian 8 Jessie 64-bit.
