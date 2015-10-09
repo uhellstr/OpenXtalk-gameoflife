@@ -35,6 +35,7 @@ For people new into LiveCode this project can be used to introduce the developer
 
 Tested environments:
 - OSX Yosemity / El Capitan
+- Windows 10 (Lack of icon for now for Windows platform)
 - Linux compiled in 32-bit mode since we require sqllite libraries provided by
   LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
   Program tested on 32-Bit Debian wheezy, 64-Bit Ubuntu 14.04 LST and Debian 8 Jessie 64-bit.
@@ -51,13 +52,12 @@ Tested environments:
 - Added support for FontAwesome fonts and removed all graphical icons from the
   project to minimize size of app and get rid of all the manual work of creating icons.
 
-Note: To use fontawesome you need to download the fonts from https://fortawesome.github.io/Font-Awesome/
+Note: To use fontawesome you need to download and *install* the fonts from https://fortawesome.github.io/Font-Awesome/
       If you build for Mobile devices you need to include the ttf font file in your livecode project by
       using Copy Files and add the ttf font to the project to have the buttons render correctly.
  
 Todo's and Notes:
 
-Not tested on Windows 7 or 8 or 10  due to lack of that environment.
 Possibly speed up the game by minimize size of the arrays.
 Possibly speed up the graphics by not reference by name but by the short-id of a graphic.
 A simple PDF manual on how to use the program.
