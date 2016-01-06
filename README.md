@@ -56,6 +56,12 @@ Note: To use fontawesome you need to download and *install* the fonts from https
       If you build for Mobile devices you need to include the ttf font file in your livecode project by
       using Copy Files and add the ttf font to the project to have the buttons render correctly.
  
+Experimental:
+
+Added HTML5 compatible version (without support for database and some modification to code to be able to run in browser)
+Due to Bug 16619 in LiveCode 8.0.0-DP11 and higher due to implementation of wait and some new URL handling it is not
+recommended to try out the HTML5 version on other versions then 8.0.0-DP10 until further notice.
+
 Todo's and Notes:
 
 Possibly speed up the game by minimize size of the arrays.
