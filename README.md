@@ -2,7 +2,7 @@ GAME OF LIFE
 
 This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.6
 
-- To compile code you must use LiveCode version 7.0.6 or higher
+- To compile code you must use LiveCode version 8.0.1 or higher
 - Download LiveCode community version from
   http://downloads.livecode.com/livecode/
 
@@ -60,7 +60,7 @@ Experimental:
 
 Added HTML5 compatible version (without support for database and some modification to code to be able to run in browser)
 Due to Bug 16619 in LiveCode 8.0.0-DP11 and higher due to implementation of wait and some new URL handling it is not
-recommended to try out the HTML5 version on other versions then 8.0.0-DP10 until further notice.
+recommended to try out the HTML5 version on other versions then 8.0.1 and higher until further notice.
 
 Todo's and Notes:
 
