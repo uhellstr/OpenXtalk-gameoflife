@@ -1,23 +1,23 @@
 GAME OF LIFE
 
-This is Conway's Game Of Life written in LiveCode (runrev) version  7.0.6
+This is Conway's Game Of Life original written in LiveCode (runrev) version  7.0.6 but now converted for the 
+future and supports version  8.0.1 and above.
 
-- To compile code you must use LiveCode version 8.0.1 or higher
+- To compile code you must use LiveCode COmmunity version 8.0.1 or higher
 - Download LiveCode community version from
   http://downloads.livecode.com/livecode/
+- The code uses free fonts from fontawesome that must be installed on operatings system before compiling (See note further down)
 
 Descisions made on project before develop:
 
-- The project should be able to run on a mobile (Android) plattform hence the
-  sqlite for storage.
+- Support all common desktop platforms.
+- The project should be able to run on a mobile (Android,iOS) plattform hence the
+  sqlite for storage of patterns.
 - The game should use boundless borders so Gliders will contine for ever if
   they are on there own on the board.
 - Should be easy to understand how to use
 - Random patterns and pausing and modify game should be allowed during
   simulation.
-- Should be possible not only to step forward, but also possible to step
-  backwards. (Was never implemented since it would require to generate
-  a sqlite database to large for a possible mobile plattform.)
 
 For people new into LiveCode this project can be used to introduce the developer into
 
@@ -32,25 +32,24 @@ For people new into LiveCode this project can be used to introduce the developer
 - Using boundless gameboard in Game of life (many versions do not implement
   this due to more complex)
 
-
 Tested environments:
+
 - OSX Yosemity / El Capitan
 - Windows 10 (Lack of icon for now for Windows platform)
-- Linux compiled in 32-bit mode since we require sqllite libraries provided by
-  LiveCode. Note 64-bit compilation will fail since sqllite libraries 32-bit only.
-  Program tested on 32-Bit Debian wheezy, 64-Bit Ubuntu 14.04 LST and Debian 8 Jessie 64-bit.
-  On 64-bit platforms you will need to install 32-bit library support to be able to compile
-  32-bit executables as per LiveCode documentation unless you use LiveCode 8.0.0.-dp6 or higer.
-
+- Linux 32/64-bit platforms (Debian Wheezy/Jessie 32/64-bit, Ubuntu 14.0.4 or higher 64-bit, fedora 23 64-bit tested platforms).
 - Additional Linux 64-bit support verified. If you want to compile the code for 64-bit Linux
   then you should go for LiveCode release 8.0.0-dp6 or higher that includes
   the necessary sqlite libraries.
+
+History:
 
 - Added rough support for Mobile (Android) 
 - Added support for iOS (8.3 and above) for iPad 2 / Air
 - Added support for LiveCode 8.0-DP6 and iOS9
 - Added support for FontAwesome fonts and removed all graphical icons from the
   project to minimize size of app and get rid of all the manual work of creating icons.
+
+Extra:
 
 Note: To use fontawesome you need to download and *install* the fonts from https://fortawesome.github.io/Font-Awesome/
       If you build for Mobile devices you need to include the ttf font file in your livecode project by
