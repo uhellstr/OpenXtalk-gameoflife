@@ -3,7 +3,7 @@ GAME OF LIFE
 This is Conway's Game Of Life original written in LiveCode (runrev) version  7.0.6 but now converted for the 
 future and supports version  8.0.1 and above.
 
-- To compile code you must use LiveCode COmmunity version 8.0.1 or higher
+- To compile code you must use LiveCode Community version 8.0.1 or higher
 - Download LiveCode community version from
   http://downloads.livecode.com/livecode/
 - The code uses free fonts from fontawesome that must be installed on operatings system before compiling (See note further down)
