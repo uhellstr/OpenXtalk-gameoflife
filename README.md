@@ -1,12 +1,24 @@
 GAME OF LIFE
 
 This is Conway's Game Of Life original written in LiveCode (runrev) version  7.0.6 but now converted for the 
-future and supports version  8.0.1 and above.
+future and supports version  8.0.1 and above. Recommended minumum version is 8.1.3.
 
-- To compile code you must use LiveCode Community version 8.0.1 or higher
+Features:
+
+- Uses boundless gameboard to play
+- Easy editing of life patterns
+- Store patterns in sqllite database
+- Retrive/Save patterns to database
+- Export/Import patterns (this is however in the form of the programs own definition not any public supported form of export/import types for game of life)
+
+
+Setup:
+
+- To compile code you must use LiveCode Community version 8.0.1 or higher (Database is automaticly created when program is used for the first time)
 - Download LiveCode community version from
   http://downloads.livecode.com/livecode/
 - The code uses free fonts from fontawesome that must be installed on operatings system before compiling (See note further down)
+- Icons for OSX and Linux included
 
 Descisions made on project before develop:
 
@@ -34,7 +46,7 @@ For people new into LiveCode this project can be used to introduce the developer
 
 Tested environments:
 
-- OSX Yosemity / El Capitan
+- OSX Yosemity / El Capitan / Sierra
 - Windows 10 (Lack of icon for now for Windows platform)
 - Linux 32/64-bit platforms (Debian Wheezy/Jessie 32/64-bit, Ubuntu 14.0.4 or higher 64-bit, fedora 23 64-bit tested platforms).
 - Additional Linux 64-bit support verified. If you want to compile the code for 64-bit Linux
@@ -48,12 +60,15 @@ History:
 - Added support for LiveCode 8.0-DP6 and iOS9
 - Added support for FontAwesome fonts and removed all graphical icons from the
   project to minimize size of app and get rid of all the manual work of creating icons.
+ 
 
 Extra:
 
 Note: To use fontawesome you need to download and *install* the fonts from https://fortawesome.github.io/Font-Awesome/
       If you build for Mobile devices you need to include the ttf font file in your livecode project by
       using Copy Files and add the ttf font to the project to have the buttons render correctly.
+      
+The subdirectory Life includes some predefined life-patterns that can be imported into the application thru the import functionality that the application provides.
  
 Experimental:
 
