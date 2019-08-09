@@ -52,6 +52,9 @@ Tested environments:
 - Additional Linux 64-bit support verified. If you want to compile the code for 64-bit Linux
   then you should go for LiveCode release 8.0.0-dp6 or higher that includes
   the necessary sqlite libraries.
+  
+Note: (2019/08/05) On CentOS 7 you by default have an older version of gcc installed. The game uses the sqlite engine and the shared library shipped with LiveCode requires gcc 4.9 or higher. (Found out this testing with LiveCode 9.5.0 on CentOS 7). 
+The W/O here is to manually install gcc 4.9.4 or higher to avoid the revdberr when loading the game into the IDE or running a standalone version of the game.
 
 History:
 
