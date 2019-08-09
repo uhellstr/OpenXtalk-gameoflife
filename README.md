@@ -1,7 +1,7 @@
 GAME OF LIFE
 
 This is Conway's Game Of Life original written in LiveCode (runrev) version  7.0.6 but now converted for the 
-future and supports version  8.0.1 and above. Recommended minumum version is 8.1.3.
+future and supports version  8.0.1 and above. Recommended minumum version is 9.5.0 or higher.
 
 Features:
 
