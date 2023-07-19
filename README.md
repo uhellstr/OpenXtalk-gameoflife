@@ -1,7 +1,7 @@
 GAME OF LIFE
 
 This is Conway's Game Of Life original written in LiveCode (runrev) version  7.0.6 but now converted for the 
-future and supports version  8.0.1 and above. Recommended minumum version is 9.5.0 or higher.
+future and supports OpenXtalk due to LiveCode no longer support there community version and has gone fully commersial.
 
 Features:
 
@@ -14,9 +14,9 @@ Features:
 
 Setup:
 
-- To compile code you must use LiveCode Community version 8.0.1 or higher (Database is automaticly created when program is used for the first time)
-- Download LiveCode community version from
-  http://downloads.livecode.com/livecode/
+- To compile code you must use OpenXtalk (or you could use commersial version of LiveCode, probably!)
+- Download OpenXtalk from
+  https://www.openxtalk.org/forum/
 - The code uses free fonts from fontawesome that must be installed on operatings system before compiling (See note further down)
 - Icons for OSX and Linux included
 
@@ -31,7 +31,7 @@ Descisions made on project before develop:
 - Random patterns and pausing and modify game should be allowed during
   simulation.
 
-For people new into LiveCode this project can be used to introduce the developer into
+For people new into OpenXtalk (or LiveCode users with commersial licence) this project can be used to introduce the developer into
 
 - How create and maintain a local database (sqllite). 
 - How to use behavior in LiveCode to have objects inherit properties,code etc
@@ -48,13 +48,8 @@ Tested environments:
 
 - OSX Yosemity / El Capitan / Sierra
 - Windows 10 (Lack of icon for now for Windows platform)
-- Linux 32/64-bit platforms (Debian Wheezy/Jessie 32/64-bit, Ubuntu 14.0.4 or higher 64-bit, fedora 23 64-bit tested platforms).
-- Additional Linux 64-bit support verified. If you want to compile the code for 64-bit Linux
-  then you should go for LiveCode release 8.0.0-dp6 or higher that includes
-  the necessary sqlite libraries.
+- Linux 32/64-bit platforms (Debian Wheezy/Jessie 32/64-bit, Ubuntu 14.0.4 or higher 64-bit, fedora 38 64-bit tested platforms).
   
-Note: (2019/08/05) On CentOS 7 you by default have an older version of gcc installed. The game uses the sqlite engine and the shared library shipped with LiveCode requires gcc 4.9 or higher. (Found out this testing with LiveCode 9.5.0 on CentOS 7). 
-The W/O here is to manually install gcc 4.9.4 or higher to avoid the revdberr when loading the game into the IDE or running a standalone version of the game.
 
 History:
 
@@ -73,17 +68,6 @@ Note: To use fontawesome you need to download and *install* the fonts from https
       
 The subdirectory Life includes some predefined life-patterns that can be imported into the application thru the import functionality that the application provides.
  
-Experimental:
-
-Added HTML5 compatible version (without support for database and some modification to code to be able to run in browser)
-Due to Bug 16619 in LiveCode 8.0.0-DP11 and higher due to implementation of wait and some new URL handling it is not
-recommended to try out the HTML5 version on other versions then 8.0.1 and higher until further notice.
-
-Todo's and Notes:
-
-Possibly speed up the game by minimize size of the arrays.
-Possibly speed up the graphics by not reference by name but by the short-id of a graphic.
-A simple PDF manual on how to use the program.
 
 Conway's game of life information
 ---------------------------------
